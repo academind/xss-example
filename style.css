@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: sans-serif;
+}
+
+body {
+  margin: 0;
+}
+
+section {
+  margin: 2rem auto;
+  width: 90%;
+  max-width: 40rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.26);
+  background-color: white;
+  padding: 1rem;
+}
+
+.form-control {
+  margin: 1rem 0;
+}
+
+.form-control input,
+.form-control textarea,
+.form-control label {
+  display: block;
+  width: 100%;
+  font: inherit;
+}
+
+.form-control label {
+  font-weight: bold;
+  margin-bottom: 0.5rem;
+}
+
+.form-control input,
+.form-control textarea {
+  border: 1px solid #ccc;
+  padding: 0.25rem;
+  border-radius: 4px;
+}
+
+.form-control input:focus,
+.form-control textarea:focus {
+  border-color: #ffbb00;
+  outline: none;
+  background-color: #fcecc1;
+}
+
+button {
+  cursor: pointer;
+  font: inherit;
+  border-radius: 6px;
+  border: 1px solid black;
+  background-color: #ffbb00;
+  color: black;
+  padding: 0.5rem 2rem;
+  box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.26);
+}
+
+button:focus {
+  outline: none;
+}
+
+button:hover,
+button:active {
+  background-color: #f8cf60;
+}
+
+#user-messages ul {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.message-item {
+  margin: 0.5rem 0;
+  padding: 0.5rem;
+  display: flex;
+  align-items: center;
+}
+
+.message-image {
+  width: 50px;
+  height: 50px;
+  margin-right: 1rem;
+}
+
+.message-item img {
+  width: 100%;
+  height: 100%;
+  border-radius: 50%;
+}
